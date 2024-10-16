@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchContacts());
-  });
+  }, [dispatch]);
 
   return (
     <div className="app">
